@@ -1,5 +1,2 @@
-## Họ và Tên: Nguyễn Tiến Thanh
-## MSV: 22810310382
-## Lớp học phần: D17CNPM5
-## Kết quả:
+Hoàng Đức Vũ 22810310362
 ![](ketqua.png)
