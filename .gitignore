@@ -1,0 +1,39 @@
+# Ignore everything
+*
+
+# But not these files/folders:
+!.gitignore
+!wp-content/
+!wp-config.php
+
+# Ignore everything in wp-content except custom themes and plugins
+wp-content/*
+!wp-content/themes/
+!wp-content/plugins/
+
+# If using custom theme, include only it (ví dụ tên là mytheme)
+wp-content/themes/*
+!wp-content/themes/mytheme/
+
+# Nếu bạn có plugin tự viết (ví dụ tên là myplugin)
+wp-content/plugins/*
+!wp-content/plugins/myplugin/
+
+# Ignore uploads (optional - nhiều file ảnh)
+wp-content/uploads/
+
+# Mac & system files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Composer
+/vendor/
+composer.lock
+
+# Node modules (nếu có dùng)
+node_modules/
